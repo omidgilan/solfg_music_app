@@ -1,0 +1,25 @@
+name: solfg_music_app
+description: SOLFG simple music streamer
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  http: ^1.2.0
+  audioplayers: ^5.2.0
+  file_picker: ^5.5.0
+  path_provider: ^2.1.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icon/
